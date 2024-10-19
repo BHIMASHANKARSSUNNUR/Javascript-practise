@@ -1,3 +1,4 @@
+// Example of find method
 const students = [
     { id: 1, name: 'Virat', age: 34 },
     { id: 2, name: 'Dhoni', age: 42 },

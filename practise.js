@@ -16,3 +16,14 @@ const getStudent=students.find(student=>(
 getStudent.age=50;
 
 console.log(students)
+
+const numbers=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+const evenNumers=numbers.filter(getEvenNumbers);
+
+function getEvenNumbers(number){
+    if(number%2===0)
+        return number;
+}
+
+console.log(evenNumers)

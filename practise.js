@@ -28,3 +28,17 @@ function getEvenNumbers(number){
 }
 
 console.log(evenNumers)
+
+// example of reduce method with array of objects
+const arrayOfObjects = [
+    { name: 'Item 1', amount: 100 },
+    { name: 'Item 2', amount: 200 },
+    { name: 'Item 3', amount: 150 },
+    { name: 'Item 4', amount: 250 },
+    { name: 'Item 5', amount: 300 }
+  ];
+
+let netAmount=arrayOfObjects.reduce((acc,item)=>
+    acc+item.amount,0
+)
+console.log(netAmount)
